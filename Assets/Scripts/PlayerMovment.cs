@@ -16,7 +16,7 @@ public class PlayerMovment : MonoBehaviour
         controller = gameObject.GetComponent<CharacterController>();
     }
 
-    void Update()
+    /*void Update()
     {
         groundedPlayer = controller.isGrounded;
         if (groundedPlayer && playerVelocity.y < 0)
@@ -40,5 +40,5 @@ public class PlayerMovment : MonoBehaviour
 
         playerVelocity.y += gravityValue * Time.deltaTime;
         controller.Move(playerVelocity * Time.deltaTime);
-    }
+    }*/
 }
