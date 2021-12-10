@@ -17,7 +17,7 @@ public class PlayerMovment : MonoBehaviour
         controller = gameObject.GetComponent<CharacterController>();
     }
 
-    void Update()
+    /*void Update()
     {
 
         
@@ -42,5 +42,5 @@ public class PlayerMovment : MonoBehaviour
 
         playerVelocity.y += gravityValue * Time.deltaTime;
         controller.Move(playerVelocity * Time.deltaTime);
-    }
+    }*/
 }
