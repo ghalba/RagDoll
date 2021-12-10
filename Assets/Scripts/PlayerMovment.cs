@@ -4,17 +4,19 @@ using UnityEngine;
 
 public class PlayerMovment : MonoBehaviour
 {
-    private CharacterController controller;
-    private Vector3 playerVelocity;
-    private bool groundedPlayer;
-    private float playerSpeed = 2.0f;
-    private float jumpHeight = 1.0f;
-    private float gravityValue = -9.81f;
+     CharacterController controller;
+     Vector3 playerVelocity;
+     bool groundedPlayer;
+     float playerSpeed = 2.0f;
+     float jumpHeight = 1.0f;
+     float gravityValue = -9.81f;
+     
     
 
     private void Start()
     {
         controller = gameObject.GetComponent<CharacterController>();
+        
     }
 
     /*void Update()
