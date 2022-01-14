@@ -5,17 +5,27 @@ public class Player : MonoBehaviour
     
     public float Speed;
     public int Armor;
-    public int Health;
+    public int curr_health;
     public int Damage;
     public bool IsHitting=false;
     void Start()
     {
+        curr_health = 100;
 
     }
     void Update()
     {
         
     }
+    public void Takedamadge(int DMG)
+    {
+        if (curr_health <= 0)
+        {
+            gameObject.SetActive(false); ;
+        }
+        curr_health -= (DMG - Armor);
+    }
+
     private void OnTriggerEnter(Collider other)
     {
         switch (other.tag)
