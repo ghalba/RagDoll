@@ -3,18 +3,15 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     
-    private float Speed;
-    private int Armor;
-    private int Health;
-    private int Damage;
-    private float attackspeed;
-    private bool IsHitting=false;
+    public float Speed;
+    public int Armor;
+    public int Health;
+    public int Damage;
+    public bool IsHitting=false;
     void Start()
     {
 
     }
-
-    // Update is called once per frame
     void Update()
     {
         
@@ -24,31 +21,27 @@ public class Player : MonoBehaviour
         switch (other.tag)
         {
             case "HArmor":
-                Armor = 30;
+                Armor = 20;
                 break;
             case "MArmor":
-                Armor = 20;
+                Armor = 15;
                 break;
             case "LArmor":
                 Armor = 10;
                 break;
             case "Sword":
-                Damage = 20;
-                attackspeed =3f;
+                Damage = 30;
+                
                 break;
             case "Bow":
-                Damage = 10;
-                attackspeed =2f;
+                Damage = 15;
+                
                 break;
             case "Daggers":
-                Damage=5;
-                attackspeed =2f;
+                Damage=25;
+                
                 break;
 
         }
-    }
-    public void Attack()
-    {
-        IsHitting = true;
     }
 }
