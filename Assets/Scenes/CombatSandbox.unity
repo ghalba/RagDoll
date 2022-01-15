@@ -486,7 +486,7 @@ GameObject:
   - component: {fileID: 21170928}
   m_Layer: 0
   m_Name: Bows
-  m_TagString: Untagged
+  m_TagString: Bow
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -516,7 +516,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 21170926}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 3.0161855, z: 3.594232}
@@ -777,7 +777,7 @@ GameObject:
   - component: {fileID: 105626047}
   m_Layer: 0
   m_Name: Swords
-  m_TagString: Untagged
+  m_TagString: Sword
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -810,7 +810,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 105626045}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 4.171285, y: 3.663296, z: 0.60033745}
@@ -1071,7 +1071,7 @@ GameObject:
   - component: {fileID: 184136390}
   m_Layer: 0
   m_Name: Bows
-  m_TagString: Untagged
+  m_TagString: Bow
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1101,7 +1101,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 184136388}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 3.0161855, z: 3.594232}
@@ -1290,7 +1290,7 @@ GameObject:
   - component: {fileID: 235433030}
   m_Layer: 0
   m_Name: Daggers
-  m_TagString: Untagged
+  m_TagString: Daggers
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1321,7 +1321,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 235433028}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 2.6342645, y: 1.4860799, z: 0.5154258}
@@ -1686,7 +1686,7 @@ GameObject:
   - component: {fileID: 317941356}
   m_Layer: 0
   m_Name: Bows
-  m_TagString: Untagged
+  m_TagString: Bow
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1716,7 +1716,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 317941354}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 3.0161855, z: 3.594232}
@@ -1733,7 +1733,7 @@ GameObject:
   - component: {fileID: 332273035}
   m_Layer: 0
   m_Name: Bows
-  m_TagString: Untagged
+  m_TagString: Bow
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1763,7 +1763,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 332273033}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 3.0161855, z: 3.594232}
@@ -2800,7 +2800,7 @@ GameObject:
   - component: {fileID: 585624338}
   m_Layer: 0
   m_Name: Armor
-  m_TagString: Untagged
+  m_TagString: MArmor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2829,7 +2829,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 585624336}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1.0840182, y: 2.669859, z: 2.9258616}
@@ -3396,89 +3396,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 642358238}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &647998965
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 647998968}
-  - component: {fileID: 647998967}
-  - component: {fileID: 647998966}
-  m_Layer: 0
-  m_Name: Camera
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!81 &647998966
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 647998965}
-  m_Enabled: 1
---- !u!20 &647998967
-Camera:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 647998965}
-  m_Enabled: 1
-  serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
-  m_projectionMatrixMode: 1
-  m_GateFitMode: 2
-  m_FOVAxisMode: 0
-  m_SensorSize: {x: 36, y: 24}
-  m_LensShift: {x: 0, y: 0}
-  m_FocalLength: 50
-  m_NormalizedViewPortRect:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1
-    height: 1
-  near clip plane: 0.3
-  far clip plane: 1000
-  field of view: 60
-  orthographic: 0
-  orthographic size: 5
-  m_Depth: 0
-  m_CullingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_RenderingPath: -1
-  m_TargetTexture: {fileID: 0}
-  m_TargetDisplay: 0
-  m_TargetEye: 3
-  m_HDR: 1
-  m_AllowMSAA: 1
-  m_AllowDynamicResolution: 0
-  m_ForceIntoRT: 0
-  m_OcclusionCulling: 1
-  m_StereoConvergence: 10
-  m_StereoSeparation: 0.022
---- !u!4 &647998968
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 647998965}
-  m_LocalRotation: {x: -0.0010485132, y: 0.9207424, z: -0.3901618, w: -0.0024878476}
-  m_LocalPosition: {x: 1.85, y: 35.95, z: 30.41}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &656727024
 GameObject:
   m_ObjectHideFlags: 0
@@ -3593,7 +3510,7 @@ Transform:
   - {fileID: 1315921825}
   - {fileID: 1009242004}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 1.705, y: 39.909, z: -1.441}
 --- !u!1001 &718289444
 PrefabInstance:
@@ -4032,7 +3949,7 @@ GameObject:
   - component: {fileID: 822280632}
   m_Layer: 0
   m_Name: Armor
-  m_TagString: Untagged
+  m_TagString: MArmor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4061,7 +3978,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 822280630}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1.0840182, y: 2.669859, z: 2.9258616}
@@ -4078,7 +3995,7 @@ GameObject:
   - component: {fileID: 833631435}
   m_Layer: 0
   m_Name: Swords
-  m_TagString: Untagged
+  m_TagString: Sword
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4111,7 +4028,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 833631433}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 4.171285, y: 3.663296, z: 0.60033745}
@@ -4148,7 +4065,7 @@ Transform:
   - {fileID: 1413574932}
   - {fileID: 105626046}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: -4.773, y: 81.678, z: 1.644}
 --- !u!1 &888369333
 GameObject:
@@ -4912,7 +4829,7 @@ GameObject:
   - component: {fileID: 1009242005}
   m_Layer: 0
   m_Name: Swords
-  m_TagString: Untagged
+  m_TagString: Sword
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4945,7 +4862,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1009242003}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 4.171285, y: 3.663296, z: 0.60033745}
@@ -5409,7 +5326,7 @@ Transform:
   - {fileID: 235433029}
   - {fileID: 1687503800}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: -100.669, z: 0}
 --- !u!1001 &1074117071
 PrefabInstance:
@@ -5678,7 +5595,7 @@ GameObject:
   - component: {fileID: 1121357537}
   m_Layer: 0
   m_Name: Armor
-  m_TagString: Untagged
+  m_TagString: MArmor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5691,7 +5608,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1121357536}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1.0840182, y: 2.669859, z: 2.9258616}
@@ -6099,7 +6016,7 @@ Transform:
   - {fileID: 1889990140}
   - {fileID: 1813816265}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: -0.022, y: -140.211, z: 0.024}
 --- !u!1001 &1183427788
 PrefabInstance:
@@ -6336,7 +6253,7 @@ Transform:
   - {fileID: 1707971938}
   - {fileID: 1451867517}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1259980314
 GameObject:
@@ -7078,7 +6995,7 @@ GameObject:
   - component: {fileID: 1315921826}
   m_Layer: 0
   m_Name: Daggers
-  m_TagString: Untagged
+  m_TagString: Daggers
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7109,7 +7026,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1315921824}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 2.6342645, y: 1.4860799, z: 0.5154258}
@@ -7721,7 +7638,7 @@ GameObject:
   - component: {fileID: 1413574933}
   m_Layer: 0
   m_Name: Daggers
-  m_TagString: Untagged
+  m_TagString: Daggers
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7919,7 +7836,7 @@ GameObject:
   - component: {fileID: 1451867518}
   m_Layer: 0
   m_Name: Swords
-  m_TagString: Untagged
+  m_TagString: Sword
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7952,7 +7869,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1451867516}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 4.171285, y: 3.663296, z: 0.60033745}
@@ -7969,7 +7886,7 @@ GameObject:
   - component: {fileID: 1470024749}
   m_Layer: 0
   m_Name: Bows
-  m_TagString: Untagged
+  m_TagString: Bow
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7999,7 +7916,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1470024747}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 3.0161855, z: 3.594232}
@@ -9365,7 +9282,7 @@ GameObject:
   - component: {fileID: 1649349441}
   m_Layer: 0
   m_Name: Bows
-  m_TagString: Untagged
+  m_TagString: Bow
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9378,7 +9295,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1649349440}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 3.0161855, z: 3.594232}
@@ -9911,7 +9828,7 @@ GameObject:
   - component: {fileID: 1687503801}
   m_Layer: 0
   m_Name: Swords
-  m_TagString: Untagged
+  m_TagString: Sword
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9944,7 +9861,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1687503799}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 4.171285, y: 3.663296, z: 0.60033745}
@@ -10051,7 +9968,7 @@ GameObject:
   - component: {fileID: 1707971937}
   m_Layer: 0
   m_Name: Daggers
-  m_TagString: Untagged
+  m_TagString: Daggers
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10064,7 +9981,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1707971936}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 2.6342645, y: 1.4860799, z: 0.5154258}
@@ -10564,7 +10481,7 @@ GameObject:
   - component: {fileID: 1780409275}
   m_Layer: 0
   m_Name: Armor
-  m_TagString: Untagged
+  m_TagString: MArmor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10593,7 +10510,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1780409273}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1.0840182, y: 2.669859, z: 2.9258616}
@@ -10781,7 +10698,7 @@ GameObject:
   - component: {fileID: 1813816266}
   m_Layer: 0
   m_Name: Swords
-  m_TagString: Untagged
+  m_TagString: Sword
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10814,7 +10731,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1813816264}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 4.171285, y: 3.663296, z: 0.60033745}
@@ -11538,7 +11455,7 @@ GameObject:
   - component: {fileID: 1885579967}
   m_Layer: 0
   m_Name: Armor
-  m_TagString: Untagged
+  m_TagString: MArmor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11567,7 +11484,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1885579965}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1.0840182, y: 2.669859, z: 2.9258616}
@@ -11674,7 +11591,7 @@ GameObject:
   - component: {fileID: 1889990141}
   m_Layer: 0
   m_Name: Daggers
-  m_TagString: Untagged
+  m_TagString: Daggers
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11705,7 +11622,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1889990139}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 2.6342645, y: 1.4860799, z: 0.5154258}
@@ -11918,7 +11835,7 @@ Transform:
   - {fileID: 1999929512}
   - {fileID: 833631434}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!1001 &1911539447
 PrefabInstance:
@@ -12462,7 +12379,7 @@ GameObject:
   - component: {fileID: 1999181923}
   m_Layer: 0
   m_Name: Armor
-  m_TagString: Untagged
+  m_TagString: MArmor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12491,7 +12408,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1999181921}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1.0840182, y: 2.669859, z: 2.9258616}
@@ -12508,7 +12425,7 @@ GameObject:
   - component: {fileID: 1999929513}
   m_Layer: 0
   m_Name: Daggers
-  m_TagString: Untagged
+  m_TagString: Daggers
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12539,7 +12456,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1999929511}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 2.6342645, y: 1.4860799, z: 0.5154258}

@@ -15,11 +15,11 @@ C:/Users/Chrifa/Documents/MESTIRI/Ragdoll/New Unity Project/RagDoll
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-63234
+54933
 Successfully changed project path to: C:/Users/Chrifa/Documents/MESTIRI/Ragdoll/New Unity Project/RagDoll
 C:/Users/Chrifa/Documents/MESTIRI/Ragdoll/New Unity Project/RagDoll
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 57.01 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 54.15 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.21f1 (a38c86f6690f)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.21f1/Editor/Data/Resources/UnitySubsystems
@@ -35,73 +35,73 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.21f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.21f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56732
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56920
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001457 seconds.
+Registered in 0.001401 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 48.50 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 47.71 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.398 seconds
+- Completed reload, in  1.594 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1399ms)
-		BeginReloadAssembly (46ms)
+	ReloadAssembly (1594ms)
+		BeginReloadAssembly (44ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (401ms)
-			LoadAssemblies (44ms)
+		EndReloadAssembly (412ms)
+			LoadAssemblies (42ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (131ms)
+			SetupTypeCache (142ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (27ms)
-			SetupLoadedEditorAssemblies (155ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (158ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (49ms)
+				RefreshPlugins (48ms)
 				BeforeProcessingInitializeOnLoad (14ms)
-				ProcessInitializeOnLoadAttributes (65ms)
-				ProcessInitializeOnLoadMethodAttributes (24ms)
+				ProcessInitializeOnLoadAttributes (67ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003047 seconds.
+Registered in 0.003081 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 45.77 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 48.61 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.928 seconds
+- Completed reload, in  0.978 seconds
 Domain Reload Profiling:
-	ReloadAssembly (929ms)
-		BeginReloadAssembly (129ms)
+	ReloadAssembly (979ms)
+		BeginReloadAssembly (127ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (16ms)
-		EndReloadAssembly (746ms)
-			LoadAssemblies (86ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (788ms)
+			LoadAssemblies (78ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (200ms)
+			SetupTypeCache (221ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (41ms)
-			SetupLoadedEditorAssemblies (315ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (334ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (46ms)
-				BeforeProcessingInitializeOnLoad (78ms)
-				ProcessInitializeOnLoadAttributes (141ms)
-				ProcessInitializeOnLoadMethodAttributes (42ms)
+				RefreshPlugins (49ms)
+				BeforeProcessingInitializeOnLoad (88ms)
+				ProcessInitializeOnLoadAttributes (146ms)
+				ProcessInitializeOnLoadMethodAttributes (43ms)
 				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -109,15 +109,15 @@ Domain Reload Profiling:
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 1.06 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 1.15 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2270 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 105.6 MB.
 System memory in use after: 105.8 MB.
 
 Unloading 55 unused Assets to reduce memory usage. Loaded Objects now: 2698.
-Total: 5.907600 ms (FindLiveObjects: 0.254500 ms CreateObjectMapping: 0.115200 ms MarkObjects: 5.450100 ms  DeleteObjects: 0.086700 ms)
+Total: 6.022500 ms (FindLiveObjects: 0.249300 ms CreateObjectMapping: 0.158800 ms MarkObjects: 5.520400 ms  DeleteObjects: 0.092600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -131,704 +131,545 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Prefabs/bow/source/Bow.fbx.fbx
-  artifactKey: Guid(084cb15511d7f1b4bade8eb9dcb0431d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/bow/source/Bow.fbx.fbx using Guid(084cb15511d7f1b4bade8eb9dcb0431d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a03807b5c1fa809298b4534bfec4dcd6') in 0.307118 seconds 
-  Import took 0.310991 seconds .
+  path: Assets/Prefabs/ActiveRagdoll.prefab
+  artifactKey: Guid(9f7412f70a9dd3341b6f4db4b69a9abc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ActiveRagdoll.prefab using Guid(9f7412f70a9dd3341b6f4db4b69a9abc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd2aa7876b35bd5a640224fac3bcb556') in 0.123951 seconds 
+  Import took 0.127732 seconds .
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000191 seconds.
-  path: Assets/Prefabs/bow
-  artifactKey: Guid(da7f81ed7740a2d47a46326f303dc1aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/bow using Guid(da7f81ed7740a2d47a46326f303dc1aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c081970c971721a220b6227d80dc5e58') in 0.005599 seconds 
-  Import took 0.010531 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000137 seconds.
-  path: Assets/Prefabs/bow/source
-  artifactKey: Guid(3134c7371f5847f4ea4e80c56fc6c22e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/bow/source using Guid(3134c7371f5847f4ea4e80c56fc6c22e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e75cd9dcb7218d41b77436ad56168c53') in 0.004738 seconds 
-  Import took 0.008098 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 87.830381 seconds.
-  path: Assets/Prefabs/bow/textures
-  artifactKey: Guid(b83884a2b24621f469f353c1c33b55d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/bow/textures using Guid(b83884a2b24621f469f353c1c33b55d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edbadd96c9cbbd83d9660e1ee1e82977') in 0.007235 seconds 
-  Import took 0.011587 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.075580 seconds.
-  path: Assets/Prefabs/bow/textures/bow [Albedo].png
-  artifactKey: Guid(5f065654ee173b5409241b6d7464ad21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/bow/textures/bow [Albedo].png using Guid(5f065654ee173b5409241b6d7464ad21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '930188da8bfc95782d80de97108d5387') in 0.017368 seconds 
-  Import took 0.021567 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000211 seconds.
-  path: Assets/Prefabs/bow/textures/bow_[Gloss].png
-  artifactKey: Guid(faa7a6596dca901489a7962bc1188bb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/bow/textures/bow_[Gloss].png using Guid(faa7a6596dca901489a7962bc1188bb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0963d0b2216a7ca17e859cee96cc87d') in 0.011655 seconds 
-  Import took 0.015237 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000277 seconds.
-  path: Assets/Prefabs/bow/textures/bow normal.png
-  artifactKey: Guid(7be34814047eb0544bb31abc9a5ff824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/bow/textures/bow normal.png using Guid(7be34814047eb0544bb31abc9a5ff824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2392eb0365942a98a6fed3ad7118ac02') in 0.016547 seconds 
-  Import took 0.021271 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000223 seconds.
-  path: Assets/Prefabs/bow/textures/bow specularColor.png
-  artifactKey: Guid(359d4c192ba45c543ae7d2be660e979c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/bow/textures/bow specularColor.png using Guid(359d4c192ba45c543ae7d2be660e979c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdefb07250c0d5ea0830e8b180499c18') in 0.011919 seconds 
-  Import took 0.015419 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.033230 seconds.
-  path: Assets/Prefabs/bow/source/Bow.fbx.fbx
-  artifactKey: Guid(084cb15511d7f1b4bade8eb9dcb0431d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/bow/source/Bow.fbx.fbx using Guid(084cb15511d7f1b4bade8eb9dcb0431d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0c0c3d2ced13e427d0980df2998650c') in 0.174252 seconds 
-  Import took 0.177852 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000140 seconds.
-  path: Assets/Prefabs/bow/source/blinn1.mat
-  artifactKey: Guid(b64d04570ae0ff9479b8a73a2c1cd2da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/bow/source/blinn1.mat using Guid(b64d04570ae0ff9479b8a73a2c1cd2da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae8fcb0cb5a6909232410e3778b2f535') in 0.017282 seconds 
-  Import took 0.020730 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 811.236870 seconds.
-  path: Assets/Prefabs/bow-and-arrow
-  artifactKey: Guid(115a0e0b23717be45a43d481dec62b60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/bow-and-arrow using Guid(115a0e0b23717be45a43d481dec62b60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a761723dcf4618d23e49cd26c9aa51e9') in 0.008687 seconds 
-  Import took 0.012781 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.269860 seconds.
-  path: Assets/Prefabs/bow-and-arrow/source
-  artifactKey: Guid(9cb3521b84df9fb4fae4fe9384bd035a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/bow-and-arrow/source using Guid(9cb3521b84df9fb4fae4fe9384bd035a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '344e5cee1c188215af79ad542f0594c9') in 0.001667 seconds 
-  Import took 0.005108 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.091916 seconds.
-  path: Assets/Prefabs/bow-and-arrow/source/model.fbx
-  artifactKey: Guid(0a393cfd4585a2c4ea4bf0de9f4a8544) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/bow-and-arrow/source/model.fbx using Guid(0a393cfd4585a2c4ea4bf0de9f4a8544) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40ea5f1d655ffb616cea994145c122e2') in 0.105934 seconds 
-  Import took 0.109332 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.760853 seconds.
-  path: Assets/Prefabs/bow-and-arrow/textures/arrow_mt_albedo.jpeg
-  artifactKey: Guid(6a9659cf729eff94ea139b13d9b7859c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/bow-and-arrow/textures/arrow_mt_albedo.jpeg using Guid(6a9659cf729eff94ea139b13d9b7859c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24132279b8fd7e56a1bcf80b3ef2bf3a') in 0.012599 seconds 
-  Import took 0.015930 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000239 seconds.
-  path: Assets/Prefabs/bow-and-arrow/textures/bow_wood_mt_roughness.jpeg
-  artifactKey: Guid(2e6820b289779f94e9474ba470a69acd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/bow-and-arrow/textures/bow_wood_mt_roughness.jpeg using Guid(2e6820b289779f94e9474ba470a69acd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c6acd53b8bffa96f16d273336b18e71') in 0.023232 seconds 
-  Import took 0.026099 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000135 seconds.
-  path: Assets/Prefabs/bow-and-arrow/textures/arrow_mt_metallic.jpeg
-  artifactKey: Guid(d3113098ad0b0234cb5ba32461e5452f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/bow-and-arrow/textures/arrow_mt_metallic.jpeg using Guid(d3113098ad0b0234cb5ba32461e5452f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03e090e8dbf04ed869acc34fb5fead1b') in 0.010256 seconds 
-  Import took 0.013908 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000141 seconds.
-  path: Assets/Prefabs/bow-and-arrow/textures/bow_metal_mt_normal.png
-  artifactKey: Guid(71b411889e43e2141a475c7b3bf204b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/bow-and-arrow/textures/bow_metal_mt_normal.png using Guid(71b411889e43e2141a475c7b3bf204b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e327a615b48618f17934315d297c0083') in 0.013684 seconds 
-  Import took 0.017870 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000141 seconds.
-  path: Assets/Prefabs/bow-and-arrow/textures/bow_metal_mt_roughness.jpeg
-  artifactKey: Guid(392cfb9266ff59945b31bfbe5765945e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/bow-and-arrow/textures/bow_metal_mt_roughness.jpeg using Guid(392cfb9266ff59945b31bfbe5765945e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5591a218894325853b594fb1572ad810') in 0.011777 seconds 
-  Import took 0.015911 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000186 seconds.
-  path: Assets/Prefabs/bow-and-arrow/textures/wing_mt_normal.png
-  artifactKey: Guid(b18e6c5be82f8d54f994af22279ff7b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/bow-and-arrow/textures/wing_mt_normal.png using Guid(b18e6c5be82f8d54f994af22279ff7b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '567e594496736e4bd4547bc091e125f1') in 0.014496 seconds 
-  Import took 0.018779 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000159 seconds.
-  path: Assets/Prefabs/bow-and-arrow/textures/wing_mt_albedo.jpeg
-  artifactKey: Guid(b2f7adcdb6b73ad458fec9d9e3bf89ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/bow-and-arrow/textures/wing_mt_albedo.jpeg using Guid(b2f7adcdb6b73ad458fec9d9e3bf89ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e793492f5c90a5228709910f6682ae7e') in 0.011770 seconds 
-  Import took 0.015799 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000185 seconds.
-  path: Assets/Prefabs/bow-and-arrow/textures/quiver_mt_metallic.jpeg
-  artifactKey: Guid(1e6189f1d762fc549b18406f23ebd0d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/bow-and-arrow/textures/quiver_mt_metallic.jpeg using Guid(1e6189f1d762fc549b18406f23ebd0d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15ca21717426593b921ba159ae80278c') in 0.012048 seconds 
-  Import took 0.016820 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000146 seconds.
-  path: Assets/Prefabs/bow-and-arrow/textures/quiver_mt_roughness.jpeg
-  artifactKey: Guid(df7c933bbd92f7e418e6c21c47e959b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/bow-and-arrow/textures/quiver_mt_roughness.jpeg using Guid(df7c933bbd92f7e418e6c21c47e959b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72123e3f902e603e31e8d3129bfe71d2') in 0.012288 seconds 
-  Import took 0.016220 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000150 seconds.
-  path: Assets/Prefabs/bow-and-arrow/textures/bow_wood_mt_AO.jpeg
-  artifactKey: Guid(109cc79b52c7bea4c913209dbad83b63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/bow-and-arrow/textures/bow_wood_mt_AO.jpeg using Guid(109cc79b52c7bea4c913209dbad83b63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a552da40deb9b8feb78f7356f3b8112') in 0.012248 seconds 
-  Import took 0.017622 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000161 seconds.
-  path: Assets/Prefabs/bow-and-arrow/textures/arrow_mt_normal.png
-  artifactKey: Guid(c1cb6b2edc9a8454ba58e2acdaf298fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/bow-and-arrow/textures/arrow_mt_normal.png using Guid(c1cb6b2edc9a8454ba58e2acdaf298fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5afdb4437338087c0ce4a106284edd7') in 0.011085 seconds 
-  Import took 0.014968 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000170 seconds.
-  path: Assets/Prefabs/bow-and-arrow/textures/bow_metal_mt_albedo.jpeg
-  artifactKey: Guid(05168f546435d3b47bb6978f3a4bfb5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/bow-and-arrow/textures/bow_metal_mt_albedo.jpeg using Guid(05168f546435d3b47bb6978f3a4bfb5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40fa1b7421d50ba025605e652ce9e6e3') in 0.012430 seconds 
-  Import took 0.016158 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000141 seconds.
-  path: Assets/Prefabs/bow-and-arrow/textures/bow_metal_mt_metallic.jpeg
-  artifactKey: Guid(0d3b5503c83eb7e49b53d01e2fed5065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/bow-and-arrow/textures/bow_metal_mt_metallic.jpeg using Guid(0d3b5503c83eb7e49b53d01e2fed5065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c138ac5e0d12981b541cf472cf1ca86') in 0.012216 seconds 
-  Import took 0.017543 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000207 seconds.
-  path: Assets/Prefabs/bow-and-arrow/textures/arrow_mt_roughness.jpeg
-  artifactKey: Guid(8815d6c1d962a664c896d77214cf0f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/bow-and-arrow/textures/arrow_mt_roughness.jpeg using Guid(8815d6c1d962a664c896d77214cf0f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '641161d43d4bfe3eef40c4bc6d49645d') in 0.012658 seconds 
-  Import took 0.016791 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000209 seconds.
-  path: Assets/Prefabs/bow-and-arrow/textures/bow_wood_mt_metallic.jpeg
-  artifactKey: Guid(e1020662dd02f5842858ab7cc8911063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/bow-and-arrow/textures/bow_wood_mt_metallic.jpeg using Guid(e1020662dd02f5842858ab7cc8911063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '322e179476b5ea3044d62e721014ddfb') in 0.011123 seconds 
-  Import took 0.015601 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000236 seconds.
-  path: Assets/Prefabs/bow-and-arrow/textures/bow_wood_mt_normal.png
-  artifactKey: Guid(ddec5f226bdd943418ba2e87d948107c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/bow-and-arrow/textures/bow_wood_mt_normal.png using Guid(ddec5f226bdd943418ba2e87d948107c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a68ba262ea866878d6560b4f1d6a9b4') in 0.012746 seconds 
-  Import took 0.016470 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000158 seconds.
-  path: Assets/Prefabs/bow-and-arrow/textures/quiver_mt_normal.png
-  artifactKey: Guid(c877daf8f5f2bf2498377c7b929d2600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/bow-and-arrow/textures/quiver_mt_normal.png using Guid(c877daf8f5f2bf2498377c7b929d2600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6eebdf94efbd97fc7a1d62f50b15c69') in 0.013281 seconds 
-  Import took 0.017012 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000286 seconds.
-  path: Assets/Prefabs/bow-and-arrow/textures/quiver_mt_albedo.jpeg
-  artifactKey: Guid(5fa35b73ebf98f7458bb5c0ae06ccee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/bow-and-arrow/textures/quiver_mt_albedo.jpeg using Guid(5fa35b73ebf98f7458bb5c0ae06ccee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96fe98a119af72ac31a62f5b7dff76e3') in 0.012856 seconds 
-  Import took 0.016656 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000175 seconds.
-  path: Assets/Prefabs/bow-and-arrow/textures/bow_wood_mt_albedo.jpeg
-  artifactKey: Guid(92539320962c67a4a9c00fcb7a364807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/bow-and-arrow/textures/bow_wood_mt_albedo.jpeg using Guid(92539320962c67a4a9c00fcb7a364807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52ffd67dba96524af8da64c2ebc5a4c7') in 0.013048 seconds 
-  Import took 0.016841 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000422 seconds.
-  path: Assets/Prefabs/bow-and-arrow/textures/wing_mt_metallic.jpeg
-  artifactKey: Guid(2f346d438a0e32a4cac54ed7db1f3db6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/bow-and-arrow/textures/wing_mt_metallic.jpeg using Guid(2f346d438a0e32a4cac54ed7db1f3db6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8db03f76fcad581e1aecac356cd5b07a') in 0.010967 seconds 
-  Import took 0.015574 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000198 seconds.
-  path: Assets/Prefabs/bow-and-arrow/textures/quiver_mt_AO.jpeg
-  artifactKey: Guid(f26a6c5d43b4b2244af11b999354397b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/bow-and-arrow/textures/quiver_mt_AO.jpeg using Guid(f26a6c5d43b4b2244af11b999354397b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a17a554a924cbed84526a13c247cb95c') in 0.012626 seconds 
-  Import took 0.016561 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000151 seconds.
-  path: Assets/Prefabs/bow-and-arrow/textures/bow_metal_mt_AO.jpeg
-  artifactKey: Guid(2bdc76e7655d0864cbdc6688679ee7e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/bow-and-arrow/textures/bow_metal_mt_AO.jpeg using Guid(2bdc76e7655d0864cbdc6688679ee7e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '489baecf917c51e7758a2c18790f78fc') in 0.012125 seconds 
-  Import took 0.016562 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000127 seconds.
-  path: Assets/Prefabs/bow-and-arrow/textures/arrow_mt_AO.jpeg
-  artifactKey: Guid(b8890093a20f962428e1737fff616879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/bow-and-arrow/textures/arrow_mt_AO.jpeg using Guid(b8890093a20f962428e1737fff616879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96c1db155325d02354e03e6fd5716afd') in 0.013215 seconds 
-  Import took 0.017251 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000146 seconds.
-  path: Assets/Prefabs/bow-and-arrow/textures/wing_mt_AO.jpeg
-  artifactKey: Guid(73d23798682eb574e93821b3132687da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/bow-and-arrow/textures/wing_mt_AO.jpeg using Guid(73d23798682eb574e93821b3132687da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eec0dea56b83eb5c1ec7d5c1ea230ae4') in 0.012364 seconds 
-  Import took 0.016980 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.531571 seconds.
-  path: Assets/Prefabs/bow-and-arrow/textures
-  artifactKey: Guid(982d049a86cde7b4ea5fc1e3ae52f734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/bow-and-arrow/textures using Guid(982d049a86cde7b4ea5fc1e3ae52f734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '032b1fcae20c7600df9ca61b1cbfd741') in 0.002265 seconds 
-  Import took 0.006550 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.743904 seconds.
-  path: Assets/Prefabs/bow-and-arrow/textures/wing_mt_opacity.jpeg
-  artifactKey: Guid(fbb65245900957845b90616bc81c4eaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/bow-and-arrow/textures/wing_mt_opacity.jpeg using Guid(fbb65245900957845b90616bc81c4eaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dce90c5c7743134e4830d68871bf269a') in 0.010577 seconds 
-  Import took 0.014358 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000250 seconds.
-  path: Assets/Prefabs/bow-and-arrow/textures/wing_mt_roughness.jpeg
-  artifactKey: Guid(ee772de3c17836747aafc56fea9bc37e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/bow-and-arrow/textures/wing_mt_roughness.jpeg using Guid(ee772de3c17836747aafc56fea9bc37e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56c54c629ec2007b4ca712b42b4c2926') in 0.022661 seconds 
-  Import took 0.026020 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.527986 seconds.
-  path: Assets/Prefabs/bow-and-arrow/textures/model.fbx
-  artifactKey: Guid(0a393cfd4585a2c4ea4bf0de9f4a8544) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/bow-and-arrow/textures/model.fbx using Guid(0a393cfd4585a2c4ea4bf0de9f4a8544) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9395c9a121f82b52ebe5802e673c814') in 0.097072 seconds 
-  Import took 0.101133 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000204 seconds.
-  path: Assets/Prefabs/bow-and-arrow/textures/bow_wood_mt.mat
-  artifactKey: Guid(f7a7eb8af56134e448608d94cfb02206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/bow-and-arrow/textures/bow_wood_mt.mat using Guid(f7a7eb8af56134e448608d94cfb02206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8d993a0dbf26300b1fb63d20bf104db') in 0.012534 seconds 
-  Import took 0.016084 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000228 seconds.
-  path: Assets/Prefabs/bow-and-arrow/textures/quiver_mt.mat
-  artifactKey: Guid(df8a3023547c5684dbaaa67fecd0f3c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/bow-and-arrow/textures/quiver_mt.mat using Guid(df8a3023547c5684dbaaa67fecd0f3c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e1de976c8bd1c455f6e083e885f2d67') in 0.012172 seconds 
-  Import took 0.016016 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000201 seconds.
-  path: Assets/Prefabs/bow-and-arrow/textures/bow_metal_mt.mat
-  artifactKey: Guid(64dbc413dae526c458ece6bfcfa3958a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/bow-and-arrow/textures/bow_metal_mt.mat using Guid(64dbc413dae526c458ece6bfcfa3958a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d1ede56eded1ccbbf0e2f2db15698bf') in 0.012885 seconds 
-  Import took 0.017119 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000200 seconds.
-  path: Assets/Prefabs/bow-and-arrow/textures/arrow_mt.mat
-  artifactKey: Guid(8df6a21454d5e2d4aaf2c36c72ef024c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/bow-and-arrow/textures/arrow_mt.mat using Guid(8df6a21454d5e2d4aaf2c36c72ef024c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86c85a2599a99e73289357bc31be4951') in 0.012734 seconds 
-  Import took 0.017150 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.558138 seconds.
-  path: Assets/Prefabs/bow-and-arrow/textures/wing_mt.mat
-  artifactKey: Guid(28e5afdc708b31542a11cf627eb0959a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/bow-and-arrow/textures/wing_mt.mat using Guid(28e5afdc708b31542a11cf627eb0959a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84d0c43d10b220e3e1a6cf1de4d0b065') in 0.012246 seconds 
-  Import took 0.015717 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 215.394739 seconds.
-  path: Assets/Prefabs/bow-and-arrow/textures/arrow_mt_normal.png
-  artifactKey: Guid(c1cb6b2edc9a8454ba58e2acdaf298fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/bow-and-arrow/textures/arrow_mt_normal.png using Guid(c1cb6b2edc9a8454ba58e2acdaf298fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37dd50e15abe633ad3533f71988f72e7') in 0.020643 seconds 
-  Import took 0.025122 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 16.426085 seconds.
-  path: Assets/Prefabs/bow-and-arrow/textures/bow_metal_mt_normal.png
-  artifactKey: Guid(71b411889e43e2141a475c7b3bf204b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/bow-and-arrow/textures/bow_metal_mt_normal.png using Guid(71b411889e43e2141a475c7b3bf204b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53ed9c083aacdcb7b76f0e3b8421ea53') in 0.014266 seconds 
-  Import took 0.018395 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 45.924059 seconds.
-  path: Assets/Prefabs/bow-and-arrow/textures/bow_wood_mt_normal.png
-  artifactKey: Guid(ddec5f226bdd943418ba2e87d948107c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/bow-and-arrow/textures/bow_wood_mt_normal.png using Guid(ddec5f226bdd943418ba2e87d948107c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '685712d5f982d62a7d6c6c1d43acc9fb') in 0.013953 seconds 
-  Import took 0.017498 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 210.788553 seconds.
-  path: Assets/Prefabs/recurve-bow
-  artifactKey: Guid(c5b72bdb31109754aa8c0ea4aff05e13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/recurve-bow using Guid(c5b72bdb31109754aa8c0ea4aff05e13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2844055e29661fdaa1f58d519b305525') in 0.006647 seconds 
-  Import took 0.010372 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.356565 seconds.
-  path: Assets/Prefabs/recurve-bow/source
-  artifactKey: Guid(eb2db9ee5f60cfc4c92ac82c36026d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/recurve-bow/source using Guid(eb2db9ee5f60cfc4c92ac82c36026d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dbc6f97962feca9144849adc2c280a9') in 0.004974 seconds 
-  Import took 0.008035 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.320937 seconds.
-  path: Assets/Prefabs/recurve-bow/source/recurve_bow.zip
-  artifactKey: Guid(308858c8505331246b449bb69248eeed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/recurve-bow/source/recurve_bow.zip using Guid(308858c8505331246b449bb69248eeed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18570001b87f072759016f508e3143c6') in 0.007686 seconds 
-  Import took 0.010812 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 28.494225 seconds.
-  path: Assets/Prefabs/recurve-bow/source/recurve_bow
-  artifactKey: Guid(63e32726b3bbb904b824b6cba761b14d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/recurve-bow/source/recurve_bow using Guid(63e32726b3bbb904b824b6cba761b14d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaa80053904d1a49a67a917cc7e8b078') in 0.002624 seconds 
-  Import took 0.006204 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.728324 seconds.
-  path: Assets/Prefabs/recurve-bow/source/recurve_bow/model
-  artifactKey: Guid(69bc041baaa30354591238c860364d9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/recurve-bow/source/recurve_bow/model using Guid(69bc041baaa30354591238c860364d9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71ca081cc5e40e40f332a381b95fc376') in 0.003108 seconds 
-  Import took 0.006425 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.107503 seconds.
-  path: Assets/Prefabs/recurve-bow/source/recurve_bow/model/bow.fbx
-  artifactKey: Guid(ad7bf0b6fe79edd49bb731b04d9b4ff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/recurve-bow/source/recurve_bow/model/bow.fbx using Guid(ad7bf0b6fe79edd49bb731b04d9b4ff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63aa837def6a63c5ad371e85ead5a5ff') in 0.044527 seconds 
-  Import took 0.048671 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 17.613777 seconds.
-  path: Assets/Prefabs/recurve-bow/source/recurve_bow/model/textures
-  artifactKey: Guid(350648934d24de547b7f6a104f743540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/recurve-bow/source/recurve_bow/model/textures using Guid(350648934d24de547b7f6a104f743540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dc1b8b5520407a0239565d57160591f') in 0.006632 seconds 
-  Import took 0.010099 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.106083 seconds.
-  path: Assets/Prefabs/recurve-bow/source/recurve_bow/model/textures/arrow_ao.png
-  artifactKey: Guid(fd846c71989b11d41afea447a4f08b0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/recurve-bow/source/recurve_bow/model/textures/arrow_ao.png using Guid(fd846c71989b11d41afea447a4f08b0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6223a8a0d97a177009643b1b6736f93a') in 0.009691 seconds 
-  Import took 0.013074 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000135 seconds.
-  path: Assets/Prefabs/recurve-bow/source/recurve_bow/model/textures/arrow_gloss.png
-  artifactKey: Guid(83b8100e9db490c4491d1e62953d1e66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/recurve-bow/source/recurve_bow/model/textures/arrow_gloss.png using Guid(83b8100e9db490c4491d1e62953d1e66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2110ed227844b307d1b41f420fa264c6') in 0.009591 seconds 
-  Import took 0.013089 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000247 seconds.
-  path: Assets/Prefabs/recurve-bow/source/recurve_bow/model/textures/bow_normal.png
-  artifactKey: Guid(2b1a9621efebd0446bd24750da91a34c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/recurve-bow/source/recurve_bow/model/textures/bow_normal.png using Guid(2b1a9621efebd0446bd24750da91a34c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16cb7fcc08993c30f42f4c54853b772e') in 0.012975 seconds 
-  Import took 0.017128 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000247 seconds.
-  path: Assets/Prefabs/recurve-bow/source/recurve_bow/model/textures/arrow_metal.png
-  artifactKey: Guid(d26cad4783f7a3e4cac223980a2ce8bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/recurve-bow/source/recurve_bow/model/textures/arrow_metal.png using Guid(d26cad4783f7a3e4cac223980a2ce8bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4d8ea76f6ce83e614cc9f5fabbf38a2') in 0.021337 seconds 
-  Import took 0.025285 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000194 seconds.
-  path: Assets/Prefabs/recurve-bow/source/recurve_bow/model/textures/bow_gloss.png
-  artifactKey: Guid(371bc0da648fffe49b63a76f6bf698c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/recurve-bow/source/recurve_bow/model/textures/bow_gloss.png using Guid(371bc0da648fffe49b63a76f6bf698c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eab7e45d0acc7c86a704ecee09e237e1') in 0.010885 seconds 
-  Import took 0.014857 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000155 seconds.
-  path: Assets/Prefabs/recurve-bow/source/recurve_bow/model/textures/arrow_basecolor.png
-  artifactKey: Guid(e3c74270b12e1fc4386baa459aa54945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/recurve-bow/source/recurve_bow/model/textures/arrow_basecolor.png using Guid(e3c74270b12e1fc4386baa459aa54945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02bffda1f9bd0a4fb3573f53930ed942') in 0.009955 seconds 
-  Import took 0.014077 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000176 seconds.
-  path: Assets/Prefabs/recurve-bow/source/recurve_bow/model/textures/bow_basecolor.png
-  artifactKey: Guid(2d398f82a883c0f4d9f89741888b0aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/recurve-bow/source/recurve_bow/model/textures/bow_basecolor.png using Guid(2d398f82a883c0f4d9f89741888b0aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efb52d2c339b1655cb2c60ad0dc1b116') in 0.013052 seconds 
-  Import took 0.016638 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000193 seconds.
-  path: Assets/Prefabs/recurve-bow/source/recurve_bow/model/textures/bow_ao.png
-  artifactKey: Guid(823766f24e468b14a9dbde48cd71c7d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/recurve-bow/source/recurve_bow/model/textures/bow_ao.png using Guid(823766f24e468b14a9dbde48cd71c7d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6366494e1e23ba5ba808df8125f66d9d') in 0.012433 seconds 
-  Import took 0.016539 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000236 seconds.
-  path: Assets/Prefabs/recurve-bow/source/recurve_bow/model/textures/arrow_normal.png
-  artifactKey: Guid(f5181663ecf9ff24f91522db9537cdb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/recurve-bow/source/recurve_bow/model/textures/arrow_normal.png using Guid(f5181663ecf9ff24f91522db9537cdb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc8e3034cd216a87d7569fa344df26d2') in 0.010623 seconds 
-  Import took 0.014347 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000169 seconds.
-  path: Assets/Prefabs/recurve-bow/source/recurve_bow/model/textures/bow_metal.png
-  artifactKey: Guid(1471f0fec91926648bdac551aa06e8be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/recurve-bow/source/recurve_bow/model/textures/bow_metal.png using Guid(1471f0fec91926648bdac551aa06e8be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cff802f66695c067de47090c99274a4e') in 0.012127 seconds 
-  Import took 0.015661 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.760033 seconds.
-  path: Assets/Prefabs/recurve-bow/textures
-  artifactKey: Guid(93146411babf41d4d80fd855b24dbf92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/recurve-bow/textures using Guid(93146411babf41d4d80fd855b24dbf92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '076dd7b0d62deb5a004c9442204dbb62') in 0.003491 seconds 
-  Import took 0.006788 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.087841 seconds.
-  path: Assets/Prefabs/recurve-bow/textures/arrow_ao.png
-  artifactKey: Guid(bad0bf4b304274e4482b9e2d06b1d9f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/recurve-bow/textures/arrow_ao.png using Guid(bad0bf4b304274e4482b9e2d06b1d9f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5007e4c9994f188238e8284bf50e02ad') in 0.006074 seconds 
-  Import took 0.009549 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000190 seconds.
-  path: Assets/Prefabs/recurve-bow/textures/arrow_normal.png
-  artifactKey: Guid(aba5286de953e6547ad14224cfd233b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/recurve-bow/textures/arrow_normal.png using Guid(aba5286de953e6547ad14224cfd233b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb1f96c4420c18d858db835980191ce6') in 0.024022 seconds 
-  Import took 0.028500 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000198 seconds.
-  path: Assets/Prefabs/recurve-bow/textures/bow_normal.png
-  artifactKey: Guid(a0bec150c1593d148b7af8ec601a39ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/recurve-bow/textures/bow_normal.png using Guid(a0bec150c1593d148b7af8ec601a39ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f462a75b634221a4deb2bf07a805deb5') in 0.034532 seconds 
-  Import took 0.038026 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000180 seconds.
-  path: Assets/Prefabs/recurve-bow/textures/arrow_metal.png
-  artifactKey: Guid(f241d6d59609d7d4eada3b88004e1241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/recurve-bow/textures/arrow_metal.png using Guid(f241d6d59609d7d4eada3b88004e1241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75740bb5ff3cf181d5c6d60bbefd11e6') in 0.006200 seconds 
-  Import took 0.009841 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000154 seconds.
-  path: Assets/Prefabs/recurve-bow/textures/bow_ao.png
-  artifactKey: Guid(80c101843a4429a4299c91db576ddd53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/recurve-bow/textures/bow_ao.png using Guid(80c101843a4429a4299c91db576ddd53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baca3a2796e7fecd9e2047b43f668881') in 0.023391 seconds 
-  Import took 0.027432 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000144 seconds.
-  path: Assets/Prefabs/recurve-bow/textures/arrow_gloss.png
-  artifactKey: Guid(18e54bde51dec5e4f8b15a8039439c40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/recurve-bow/textures/arrow_gloss.png using Guid(18e54bde51dec5e4f8b15a8039439c40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07e64616fae573fc6005491e1059d925') in 0.017725 seconds 
-  Import took 0.021939 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000150 seconds.
-  path: Assets/Prefabs/recurve-bow/textures/bow_gloss.png
-  artifactKey: Guid(b3a916b67ba95824c8e20364d5b3b910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/recurve-bow/textures/bow_gloss.png using Guid(b3a916b67ba95824c8e20364d5b3b910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49b12285f9a1a8b3a20856b05c901dcf') in 0.028350 seconds 
-  Import took 0.032121 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000311 seconds.
-  path: Assets/Prefabs/recurve-bow/textures/arrow_basecolor.png
-  artifactKey: Guid(45b1792dd4aef6c43a9d93d26f5c2f7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/recurve-bow/textures/arrow_basecolor.png using Guid(45b1792dd4aef6c43a9d93d26f5c2f7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5280396eccaa607c5f4da6077cea2218') in 0.017140 seconds 
-  Import took 0.021280 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000154 seconds.
-  path: Assets/Prefabs/recurve-bow/textures/bow_metal.png
-  artifactKey: Guid(f256710bb38b21642bcdcd6f6d41f732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/recurve-bow/textures/bow_metal.png using Guid(f256710bb38b21642bcdcd6f6d41f732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f88c97e9dd346026c29396f8afe56cf0') in 0.022875 seconds 
-  Import took 0.026370 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000280 seconds.
-  path: Assets/Prefabs/recurve-bow/textures/bow_basecolor.png
-  artifactKey: Guid(25c9d4cadfdb10d44821a9d26a4198ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/recurve-bow/textures/bow_basecolor.png using Guid(25c9d4cadfdb10d44821a9d26a4198ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2f44154086e56e49ae7e6c4d346eaf4') in 0.022797 seconds 
-  Import took 0.026146 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 140.481324 seconds.
-  path: Assets/Prefabs/recurve-bow/source/recurve_bow/model/textures/bow.fbx
-  artifactKey: Guid(ad7bf0b6fe79edd49bb731b04d9b4ff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/recurve-bow/source/recurve_bow/model/textures/bow.fbx using Guid(ad7bf0b6fe79edd49bb731b04d9b4ff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c030d69a3052db17e4aecf8c9679feaf') in 0.072001 seconds 
-  Import took 0.075925 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000138 seconds.
-  path: Assets/Prefabs/recurve-bow/source/recurve_bow/model/textures/arrow.mat
-  artifactKey: Guid(8d5f72517c752df4898a16917cd6e075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/recurve-bow/source/recurve_bow/model/textures/arrow.mat using Guid(8d5f72517c752df4898a16917cd6e075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38a084c8d7b2ece7c37dd08c6d55a43e') in 0.012120 seconds 
-  Import took 0.015449 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000183 seconds.
-  path: Assets/Prefabs/recurve-bow/source/recurve_bow/model/textures/bow.mat
-  artifactKey: Guid(afc45dffaf9fe6f41aae474ec35bbdff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/recurve-bow/source/recurve_bow/model/textures/bow.mat using Guid(afc45dffaf9fe6f41aae474ec35bbdff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2ecdbaa8d02a086f9211faff390f243') in 0.008169 seconds 
-  Import took 0.012377 seconds .
+========================================================================
+Received Import Request.
+  Time since last request: 3.404874 seconds.
+  path: Assets/Prefabs/ActiveRagdoll.prefab
+  artifactKey: Guid(9f7412f70a9dd3341b6f4db4b69a9abc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ActiveRagdoll.prefab using Guid(9f7412f70a9dd3341b6f4db4b69a9abc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '354edf6e0f6e156f6c3f02d9aafce83a') in 0.019024 seconds 
+  Import took 0.023928 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.336258 seconds.
+  path: Assets/Prefabs/ActiveRagdoll.prefab
+  artifactKey: Guid(9f7412f70a9dd3341b6f4db4b69a9abc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ActiveRagdoll.prefab using Guid(9f7412f70a9dd3341b6f4db4b69a9abc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acdca2d216c7c28390a56e9a05528122') in 0.013673 seconds 
+  Import took 0.018388 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.205259 seconds.
+  path: Assets/Prefabs/ActiveRagdoll.prefab
+  artifactKey: Guid(9f7412f70a9dd3341b6f4db4b69a9abc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ActiveRagdoll.prefab using Guid(9f7412f70a9dd3341b6f4db4b69a9abc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae57256249eea0cef1df37f694a4d788') in 0.025844 seconds 
+  Import took 0.032152 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.586393 seconds.
+  path: Assets/Prefabs/ActiveRagdoll.prefab
+  artifactKey: Guid(9f7412f70a9dd3341b6f4db4b69a9abc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ActiveRagdoll.prefab using Guid(9f7412f70a9dd3341b6f4db4b69a9abc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '066d389b7e820efb2b28580d2174d655') in 0.018112 seconds 
+  Import took 0.022243 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.292114 seconds.
+  path: Assets/Prefabs/ActiveRagdoll.prefab
+  artifactKey: Guid(9f7412f70a9dd3341b6f4db4b69a9abc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ActiveRagdoll.prefab using Guid(9f7412f70a9dd3341b6f4db4b69a9abc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2135263809019a770c7dd4692912d393') in 0.014851 seconds 
+  Import took 0.018959 seconds .
 
-========================================================================
-Received Import Request.
-  Time since last request: 65.620335 seconds.
-  path: Assets/Prefabs/recurve-bow/source/recurve_bow/model/textures/arrow_normal.png
-  artifactKey: Guid(f5181663ecf9ff24f91522db9537cdb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/recurve-bow/source/recurve_bow/model/textures/arrow_normal.png using Guid(f5181663ecf9ff24f91522db9537cdb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4af10eda92dd1949569788fd7d08b69') in 0.018951 seconds 
-  Import took 0.022573 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 56.293826 seconds.
-  path: Assets/Prefabs/recurve-bow/source/recurve_bow/model/textures/arrow.mat
-  artifactKey: Guid(8d5f72517c752df4898a16917cd6e075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/recurve-bow/source/recurve_bow/model/textures/arrow.mat using Guid(8d5f72517c752df4898a16917cd6e075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4787ea9e8e238b6c761f4652a4d1762b') in 0.022181 seconds 
-  Import took 0.026873 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000242 seconds.
-  path: Assets/Prefabs/recurve-bow/source/recurve_bow/model/textures/bow.mat
-  artifactKey: Guid(afc45dffaf9fe6f41aae474ec35bbdff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/recurve-bow/source/recurve_bow/model/textures/bow.mat using Guid(afc45dffaf9fe6f41aae474ec35bbdff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e465e25b7f11d431b6151694d625c01') in 0.020107 seconds 
-  Import took 0.023821 seconds .
+========================================================================
+Received Import Request.
+  Time since last request: 1.988185 seconds.
+  path: Assets/Prefabs/ActiveRagdoll.prefab
+  artifactKey: Guid(9f7412f70a9dd3341b6f4db4b69a9abc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ActiveRagdoll.prefab using Guid(9f7412f70a9dd3341b6f4db4b69a9abc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cd48395a360923528ac442ca1a8869d') in 0.015711 seconds 
+  Import took 0.020816 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.527996 seconds.
-  path: Assets/Prefabs/recurve-bow/source/recurve_bow/model/textures/bow_normal.png
-  artifactKey: Guid(2b1a9621efebd0446bd24750da91a34c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/recurve-bow/source/recurve_bow/model/textures/bow_normal.png using Guid(2b1a9621efebd0446bd24750da91a34c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43faae38b4010ceafe3f3cd0bbbc20c3') in 0.022988 seconds 
-  Import took 0.026707 seconds .
+  Time since last request: 4.220802 seconds.
+  path: Assets/Prefabs/ActiveRagdoll.prefab
+  artifactKey: Guid(9f7412f70a9dd3341b6f4db4b69a9abc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ActiveRagdoll.prefab using Guid(9f7412f70a9dd3341b6f4db4b69a9abc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da091b919178e336d5984d15229fcfbd') in 0.018860 seconds 
+  Import took 0.022678 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 323.845260 seconds.
-  path: Assets/Scenes/cherifq.unity
-  artifactKey: Guid(43e5339464054884699658a34d296988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/cherifq.unity using Guid(43e5339464054884699658a34d296988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd715bf52435f4272a2f45e245a26b0a') in 0.007211 seconds 
-  Import took 0.010642 seconds .
+  Time since last request: 4.027631 seconds.
+  path: Assets/Prefabs/ActiveRagdoll.prefab
+  artifactKey: Guid(9f7412f70a9dd3341b6f4db4b69a9abc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ActiveRagdoll.prefab using Guid(9f7412f70a9dd3341b6f4db4b69a9abc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd88ea81e091607cdba93e5fd74b2fa28') in 0.014488 seconds 
+  Import took 0.019752 seconds .
 
 ========================================================================
-Received Import Request.
-  Time since last request: 68.504348 seconds.
-  path: Assets/Prefabs/dagger4_fbx.prefab
-  artifactKey: Guid(dae62ee21e5ce044fb400fa99152c059) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/dagger4_fbx.prefab using Guid(dae62ee21e5ce044fb400fa99152c059) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea415b3ebed1cdf397bfb4d5cea111aa') in 0.031174 seconds 
-  Import took 0.038720 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 39.530800 seconds.
-  path: Assets/Prefabs/arrow.005.prefab
-  artifactKey: Guid(da29df41a0e926d4899dfeff840854e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/arrow.005.prefab using Guid(da29df41a0e926d4899dfeff840854e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'add8b25332700b1e5d5097b153e06a2d') in 0.066448 seconds 
-  Import took 0.075663 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 22.839761 seconds.
-  path: Assets/Prefabs/bow.prefab
-  artifactKey: Guid(e18d48fd8e007144abc180d5370d9f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/bow.prefab using Guid(e18d48fd8e007144abc180d5370d9f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a54d7fe173f91977f7fefbb4a478b8ca') in 0.054790 seconds 
-  Import took 0.062184 seconds .
-
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003058 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.836 seconds
+Domain Reload Profiling:
+	ReloadAssembly (836ms)
+		BeginReloadAssembly (96ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (684ms)
+			LoadAssemblies (79ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (207ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (267ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (74ms)
+				ProcessInitializeOnLoadAttributes (141ms)
+				ProcessInitializeOnLoadMethodAttributes (42ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.82 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2263 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 122.2 MB.
+System memory in use after: 122.4 MB.
+
+Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 2708.
+Total: 6.567600 ms (FindLiveObjects: 0.252200 ms CreateObjectMapping: 0.098800 ms MarkObjects: 6.190800 ms  DeleteObjects: 0.024800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 399.641985 seconds.
+  path: Assets/Prefabs/ActiveRagdoll.prefab
+  artifactKey: Guid(9f7412f70a9dd3341b6f4db4b69a9abc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ActiveRagdoll.prefab using Guid(9f7412f70a9dd3341b6f4db4b69a9abc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67d88ce797c41582fb98bee6b8782d45') in 0.064997 seconds 
+  Import took 0.068649 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.685166 seconds.
+  path: Assets/Prefabs/ActiveRagdoll.prefab
+  artifactKey: Guid(9f7412f70a9dd3341b6f4db4b69a9abc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ActiveRagdoll.prefab using Guid(9f7412f70a9dd3341b6f4db4b69a9abc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4898307a1019ff5e68ac836fac97a462') in 0.015134 seconds 
+  Import took 0.021135 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.816597 seconds.
+  path: Assets/Prefabs/ActiveRagdoll.prefab
+  artifactKey: Guid(9f7412f70a9dd3341b6f4db4b69a9abc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ActiveRagdoll.prefab using Guid(9f7412f70a9dd3341b6f4db4b69a9abc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3586c4a10d282507d0cc90debf96905c') in 0.018680 seconds 
+  Import took 0.022776 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.676615 seconds.
+  path: Assets/Prefabs/ActiveRagdoll.prefab
+  artifactKey: Guid(9f7412f70a9dd3341b6f4db4b69a9abc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ActiveRagdoll.prefab using Guid(9f7412f70a9dd3341b6f4db4b69a9abc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7102c5a92095f4bc5459e972afe583c2') in 0.017150 seconds 
+  Import took 0.021108 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 87.141055 seconds.
+  path: Assets/Prefabs/ActiveRagdoll.prefab
+  artifactKey: Guid(9f7412f70a9dd3341b6f4db4b69a9abc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ActiveRagdoll.prefab using Guid(9f7412f70a9dd3341b6f4db4b69a9abc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5b20f5881d0a76b24f100493ca8a395') in 0.017290 seconds 
+  Import took 0.022720 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002874 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.839 seconds
+Domain Reload Profiling:
+	ReloadAssembly (840ms)
+		BeginReloadAssembly (91ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (692ms)
+			LoadAssemblies (81ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (210ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (268ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (70ms)
+				ProcessInitializeOnLoadAttributes (145ms)
+				ProcessInitializeOnLoadMethodAttributes (43ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.92 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2263 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 122.3 MB.
+System memory in use after: 122.5 MB.
+
+Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 2711.
+Total: 6.677500 ms (FindLiveObjects: 0.250400 ms CreateObjectMapping: 0.209100 ms MarkObjects: 6.188700 ms  DeleteObjects: 0.027800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002889 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.815 seconds
+Domain Reload Profiling:
+	ReloadAssembly (815ms)
+		BeginReloadAssembly (87ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (24ms)
+		EndReloadAssembly (674ms)
+			LoadAssemblies (76ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (195ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (273ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (72ms)
+				ProcessInitializeOnLoadAttributes (152ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.65 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2263 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 122.3 MB.
+System memory in use after: 122.5 MB.
+
+Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 2713.
+Total: 6.189200 ms (FindLiveObjects: 0.228900 ms CreateObjectMapping: 0.112100 ms MarkObjects: 5.822200 ms  DeleteObjects: 0.024700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002834 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.817 seconds
+Domain Reload Profiling:
+	ReloadAssembly (818ms)
+		BeginReloadAssembly (93ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (668ms)
+			LoadAssemblies (78ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (195ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (266ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (73ms)
+				ProcessInitializeOnLoadAttributes (140ms)
+				ProcessInitializeOnLoadMethodAttributes (42ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.65 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2263 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 122.3 MB.
+System memory in use after: 122.5 MB.
+
+Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 2715.
+Total: 5.391000 ms (FindLiveObjects: 0.236300 ms CreateObjectMapping: 0.113500 ms MarkObjects: 5.019200 ms  DeleteObjects: 0.020600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002873 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.825 seconds
+Domain Reload Profiling:
+	ReloadAssembly (825ms)
+		BeginReloadAssembly (87ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (683ms)
+			LoadAssemblies (79ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (203ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (270ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (73ms)
+				ProcessInitializeOnLoadAttributes (148ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.64 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2263 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 122.3 MB.
+System memory in use after: 122.5 MB.
+
+Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 2717.
+Total: 6.499200 ms (FindLiveObjects: 0.278600 ms CreateObjectMapping: 0.095100 ms MarkObjects: 6.085100 ms  DeleteObjects: 0.039300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 516.792613 seconds.
+  path: Assets/Prefabs/ActiveRagdoll.prefab
+  artifactKey: Guid(9f7412f70a9dd3341b6f4db4b69a9abc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ActiveRagdoll.prefab using Guid(9f7412f70a9dd3341b6f4db4b69a9abc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b603890347dc96e5771ec83d01a42ecd') in 0.072307 seconds 
+  Import took 0.076242 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 40.216661 seconds.
+  path: Assets/Scripts/Weapon.cs
+  artifactKey: Guid(292354e7d01710c48a428fcb4cec0e44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Weapon.cs using Guid(292354e7d01710c48a428fcb4cec0e44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dd04bbec4456aab05a8532982125cbf') in 0.008702 seconds 
+  Import took 0.014338 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 129.418195 seconds.
+  path: Assets/Prefabs/ActiveRagdoll.prefab
+  artifactKey: Guid(9f7412f70a9dd3341b6f4db4b69a9abc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ActiveRagdoll.prefab using Guid(9f7412f70a9dd3341b6f4db4b69a9abc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8091713b2daf5a5bbe48bc2432d9f257') in 0.049627 seconds 
+  Import took 0.054646 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 48.950077 seconds.
+  path: Assets/Prefabs/ActiveRagdoll.prefab
+  artifactKey: Guid(9f7412f70a9dd3341b6f4db4b69a9abc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ActiveRagdoll.prefab using Guid(9f7412f70a9dd3341b6f4db4b69a9abc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e2a53b478ab4d6eb9267a9e9a2147a2') in 0.024168 seconds 
+  Import took 0.029068 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.998450 seconds.
+  path: Assets/Prefabs/ActiveRagdoll.prefab
+  artifactKey: Guid(9f7412f70a9dd3341b6f4db4b69a9abc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ActiveRagdoll.prefab using Guid(9f7412f70a9dd3341b6f4db4b69a9abc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd698ee4442cfec869eac66c952137c2') in 0.021526 seconds 
+  Import took 0.026006 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004486 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.20 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.089 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1090ms)
+		BeginReloadAssembly (119ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (899ms)
+			LoadAssemblies (106ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (268ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (358ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (92ms)
+				ProcessInitializeOnLoadAttributes (198ms)
+				ProcessInitializeOnLoadMethodAttributes (55ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.74 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2263 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 122.3 MB.
+System memory in use after: 122.6 MB.
+
+Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 2720.
+Total: 6.956800 ms (FindLiveObjects: 0.368800 ms CreateObjectMapping: 0.249500 ms MarkObjects: 6.313000 ms  DeleteObjects: 0.024300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010432 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.445 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2446ms)
+		BeginReloadAssembly (272ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (19ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (81ms)
+		EndReloadAssembly (2005ms)
+			LoadAssemblies (266ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (519ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (83ms)
+			SetupLoadedEditorAssemblies (914ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (173ms)
+				ProcessInitializeOnLoadAttributes (549ms)
+				ProcessInitializeOnLoadMethodAttributes (163ms)
+				AfterProcessingInitializeOnLoad (16ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (25ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.42 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2263 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 122.3 MB.
+System memory in use after: 122.6 MB.
+
+Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 2722.
+Total: 17.381900 ms (FindLiveObjects: 0.735200 ms CreateObjectMapping: 0.938300 ms MarkObjects: 15.652800 ms  DeleteObjects: 0.053000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
